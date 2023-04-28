@@ -81,7 +81,7 @@ ui <- fluidPage(
                     max = 50,
                     step = 5),
         radioButtons(inputId = "qb_trade_id",
-                     label = "QB Trade?",
+                     label = "Trade Up for QB?",
                      choices = c("Yes", "No"),
                      selected = "No"),
         submitButton(text = "Submit",
